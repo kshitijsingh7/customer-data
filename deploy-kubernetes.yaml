@@ -14,13 +14,11 @@ spec:
       labels:
         app: customer-data
     spec:
-      imagePullSecrets:
-      - name: secret-tiger-docker
       containers:
-        - name: customer-data
-          image: d1247/cutomer-data:latest
-          ports:
-            - containerPort: 8080
+      - name: customer-data
+        image: d1247/customer-data
+        ports:
+        - containerPort: 8080
 
 
 ---
