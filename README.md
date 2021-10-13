@@ -1,5 +1,6 @@
 # Spring Boot customer-data REST API project with H2 database
-Run on https://localhost:8080 
+Run project - https://localhost:8080/customer
+h2 database - http://localhost:8080/h2-console
 # Containerized with docker and deployed with kubernetes
 
 Docker hub link
